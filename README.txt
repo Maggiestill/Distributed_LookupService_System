@@ -16,7 +16,6 @@ Description: 3 backend servers, 1 client-facing server(AWS), 1 client and 1 moni
 2. For backend serverA B C:
        All the three servers do initialize first, then build connection using udp with aws.
        Server also need to open database.
-       /**for each addr of file I used "/home/ee450/Desktop/ee450_yiranma@usc.edu_session2/backendA.txt"**/
        Then aws will send socket to server, the message contains the keyword and function. After saperating it, server search key words from the database one line by another line and count the match number. Here used strcmp and strncmp.
        After getting all the result, server combine it together and send to aws using udp.
    
