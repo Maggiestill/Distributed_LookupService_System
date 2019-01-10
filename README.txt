@@ -1,5 +1,5 @@
 # Distributed_LookupService_System
-Description: 3 backend servers, 1 client-facing server(AWS), 1 client and 1 monitor
+Description: 3 backend servers(A,B,C), 1 client-facing server(AWS), 1 client and 1 monitor
 
 
 
