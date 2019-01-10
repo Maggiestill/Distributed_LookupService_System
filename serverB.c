@@ -35,7 +35,7 @@ int main()
 
   /*read file and save to str*/
   FILE *fp;
-  char *filename = "/home/ee450/Desktop/ee450_yiranma@usc.edu_session2/backendB.txt";
+  char *filename = "backendB.txt";
 
   /*initialize*/
   memset(&server_addr,0,sizeof(server_addr));
